@@ -1,0 +1,15 @@
+{
+  "name": "abiola_onabanji_m2_ccn",
+  "version": "1.0.0",
+  "description": "JavaScritpTp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Abiola ONABANJI",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
