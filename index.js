@@ -34,7 +34,7 @@ let  player2 = new player.Player("Joy", 10, 6);
 // Question 18
 let  player3 = new player2Win.PayToWinPlayer("Abiola", 25, 4);
 
-
+ 
 player1.displayMyPlayerInfo();
 player3.displayMyPlayerInfo();
 //player1.fight(player2);
