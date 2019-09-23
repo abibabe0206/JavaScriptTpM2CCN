@@ -5,7 +5,8 @@ function getMyPlayerRatio(player, number){
     return player.attack - number;
 }
 
-function fight (player1, player2){
+// Question 4 (before the new changes made in question 8)
+function fight (player1, player2){ 
 
     let ratio1 = getMyPlayerRatio(player1, player2.defense);
     let ratio2 = getMyPlayerRatio(player2, player1.defense);

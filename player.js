@@ -47,7 +47,7 @@ class Player {
 
 // question 17
 class PayToWinPlayer extends Player {
-    constructor(name, attack, defense) {
+    constructor(name, attack, defense) { 
         super(name, attack, defense);
         this.attack = attack * 1.4;  
     }

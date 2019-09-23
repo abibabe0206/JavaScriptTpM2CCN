@@ -6,7 +6,7 @@ const getMyPlayerRatio = require('./playerUtils');
 
 
 
-playerGenerator.playerGenerator("Scope Closure: ","toto", 20, 5);
+playerGenerator.playerGenerator("Scope Closure: ","toto", 20, 5); 
 
 // 4
 /*player1 = playerGenerator.playerGenerator("Scope Closure: ","player1", 20, 5);

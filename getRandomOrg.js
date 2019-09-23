@@ -1,5 +1,5 @@
 //Question 20
-function getRandom(max){
+function getRandomOrg(max){
 
     let someUrl = `https://www.random.org/;`
     let toReturn;

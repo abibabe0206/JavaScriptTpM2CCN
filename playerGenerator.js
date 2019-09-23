@@ -9,7 +9,7 @@ const utils = require('./playerUtils');
 /**let title = "Lexical Scope: ";
 let name = "Val";
 let attack = 30;
-let defense = 10;
+let defense = 10; 
 let hp = 100;*/
 
 /**

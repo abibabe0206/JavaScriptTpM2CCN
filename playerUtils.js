@@ -8,7 +8,7 @@ function getMyPlayerRatio(player, number){
 // question 8
 function fight (player2){
 
-    //let player1 = this;
+    //let player1 = this; 
     let ratio1 = getMyPlayerRatio(this, player2.defense);
     let ratio2 = getMyPlayerRatio(player2, this.defense);
     

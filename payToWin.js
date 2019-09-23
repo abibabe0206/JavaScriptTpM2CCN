@@ -11,7 +11,7 @@ class PayToWinPlayer extends Player {
         super.fight(one);
     }
 
-    displayMyPlayerInfo(){
+    displayMyPlayerInfo(){ 
         super.displayMyPlayerInfo();
         console.log("My super name is " + this.name + ", and i am here to win this fight");
     }
