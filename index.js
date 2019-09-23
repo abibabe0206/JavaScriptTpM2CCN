@@ -27,11 +27,11 @@ player2.displayMyPlayerInfo();*/
 
 //name (string), attack (number, [10-30]), defense (number, [1-10]), hp (number, 100).
 // Question 15
-let  player1 = new player.Player("Valantine", 20, 4);
+let  player1 = new player.Player("Valantine", 20, 7);
 let  player2 = new player.Player("Joy", 10, 6);
 
 // Question 18
-let  player3 = new player.PayToWinPlayer("Abiola", 30, 7);
+let  player3 = new player.PayToWinPlayer("Abiola", 25, 4);
 
 
 player1.displayMyPlayerInfo();
