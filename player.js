@@ -1,3 +1,5 @@
+//ES6 classes
+//Question 19
 /*prototype
 const utils = require('./playerUtils');
 function Player(name, attack, defense) {
@@ -6,6 +8,7 @@ function Player(name, attack, defense) {
         this.defense = defense;
         this.hp = 100;
 }
+
 //Add prototype
 Player.prototype.fight = utils.fight;
 Player.prototype.displayMyPlayerInfo = function(){
@@ -45,21 +48,5 @@ class Player {
     
 }
 
-// question 17
-class PayToWinPlayer extends Player {
-    constructor(name, attack, defense) { 
-        super(name, attack, defense);
-        this.attack = attack * 1.4;  
-    }
 
-    fight(one){
-        super.fight(one);
-    }
-
-    displayMyPlayerInfo(){
-        super.displayMyPlayerInfo();
-        console.log("My super strong name is " + this.name + ", and i am here to win this fight");
-    }
-}
-
-module.exports = { Player, PayToWinPlayer }
+module.exports = { Player }

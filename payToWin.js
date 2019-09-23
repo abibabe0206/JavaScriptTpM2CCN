@@ -1,7 +1,7 @@
 const Player = require('./player');
 
 // Question 16
-class PayToWinPlayer extends Player {
+class PayToWinPlayer extends Player.Player {
     constructor(name, attack, defense) {
         super(name, attack, defense);
         this.attack = attack * 1.4;  // question 17
@@ -13,7 +13,7 @@ class PayToWinPlayer extends Player {
 
     displayMyPlayerInfo(){ 
         super.displayMyPlayerInfo();
-        console.log("My super name is " + this.name + ", and i am here to win this fight");
+        console.log("My super strong name is " + this.name + ", and i am here to win this fight");
     }
 }
 

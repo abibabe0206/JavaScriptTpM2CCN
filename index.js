@@ -3,6 +3,7 @@ const playerGenerator = require('./playerGenerator.js');
 const player = require('./player');
 const fight = require('./playerUtils');
 const getMyPlayerRatio = require('./playerUtils');
+const player2Win = require('./payToWin');
 
 
 
@@ -31,7 +32,7 @@ let  player1 = new player.Player("Valantine", 20, 7);
 let  player2 = new player.Player("Joy", 10, 6);
 
 // Question 18
-let  player3 = new player.PayToWinPlayer("Abiola", 25, 4);
+let  player3 = new player2Win.PayToWinPlayer("Abiola", 25, 4);
 
 
 player1.displayMyPlayerInfo();
