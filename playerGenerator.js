@@ -1,3 +1,7 @@
+// 7
+const getMyPlayerRatio = require('./playerUtils');
+const utils = require('./playerUtils');
+
 /**
  * Lexical Scope
  */
@@ -26,14 +30,12 @@ function playerGenerator(title, name, attack, defense){
         ["defense"]: defense,
         ["hp"]: hp,
         ["displayMyPlayerInfo"]: displayMyPlayerInfo,
-        ["fight"]: utils.fight
+        ["fight"]: utils.fight // question 10
     }
     return player;
 }
 
-// 7
-const getMyPlayerRatio = require('./playerUtils');
-const utils = require('./playerUtils');
+
 
 
 module.exports = { playerGenerator };

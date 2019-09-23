@@ -1,4 +1,4 @@
-{/*prototype
+/*prototype
 const utils = require('./playerUtils');
 function Player(name, attack, defense) {
         this.name = name;
@@ -19,12 +19,12 @@ function PayToWinPlayer(name, attack, defense) {
 }
 PayToWinPlayer.prototype = Object.create(Player.prototype);
 module.exports = { Player, PayToWinPlayer }
-*/}
+*/
 
 const utils = require('./playerUtils');
 const playerGenerator = require('./playerGenerator');
 
-
+// question 13
 class Player {
     constructor(name, attack, defense){
     this.name = name;
@@ -33,6 +33,7 @@ class Player {
     this.hp = 100;
     }
 
+    // question 14
     displayMyPlayerInfo(){
         console.log("My name is " + this.name + ", I have " + this.attack + " attack, " + this.defense + " defense and " + this.hp + " health points.");            
     }
@@ -44,7 +45,7 @@ class Player {
     
 }
 
-
+// question 17
 class PayToWinPlayer extends Player {
     constructor(name, attack, defense) {
         super(name, attack, defense);
@@ -57,7 +58,7 @@ class PayToWinPlayer extends Player {
 
     displayMyPlayerInfo(){
         super.displayMyPlayerInfo();
-        console.log("My super strong name is " + this.name + ", and i am here to win");
+        console.log("My super strong name is " + this.name + ", and i am here to win this fight");
     }
 }
 

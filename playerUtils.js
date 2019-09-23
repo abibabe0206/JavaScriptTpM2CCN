@@ -5,6 +5,7 @@ function getMyPlayerRatio(player, number){
     return player.attack - number;
 }
 
+// question 8
 function fight (player2){
 
     //let player1 = this;
@@ -21,7 +22,7 @@ function fight (player2){
         console.log("Fight: [ "+ this.name +", "+player2.name + " ==//==> "+ this.name+":"+ ratio1 +" points ]")
         console.log("Winner is " + this.name + " with = " + newHP1);
         console.log("Looser is " + player2.name + " with 0 Health point ");
-        this.displayMyPlayerInfo();
+        this.displayMyPlayerInfo(); // question 9
         console.log(this)
         player2.hp = 0;
     }
