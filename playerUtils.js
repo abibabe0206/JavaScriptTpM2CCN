@@ -1,5 +1,5 @@
 const playerGenerator = require('./playerGenerator');
-//let  player1 = playerGenerator.playerGenerator("Warr", 10, 20, 1300);
+//let  player1 = playerGenerator.playerGenerator("Joy", 10, 20, 1300);
 
 function getMyPlayerRatio(player, number){
     return player.attack - number;
